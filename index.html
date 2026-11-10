@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpin Aminulloh</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #eaf4ec;
+            color: #20352a;
+            line-height: 1.7;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 850px;
+            margin: 55px auto;
+            padding: 35px;
+            background-color: white;
+            border-radius: 16px;
+            box-shadow: 0 8px 25px rgba(20, 65, 38, 0.10);
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 6px 13px;
+            border-radius: 20px;
+            background-color: #d9f3df;
+            color: #176b36;
+            font-size: 13px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        h1 {
+            margin: 15px 0 8px;
+            color: #176b36;
+            font-size: 34px;
+        }
+
+        h2 {
+            margin-top: 28px;
+            color: #245b38;
+        }
+
+        p {
+            margin: 12px 0;
+            font-size: 16px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            background-color: #198044;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        button:hover {
+            background-color: #105d30;
+            transform: translateY(-2px);
+        }
+
+        #pesan {
+            margin-top: 15px;
+            padding: 12px;
+            border-left: 4px solid #198044;
+            background-color: #f0faf2;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #e3eee5;
+            color: #718077;
+            font-size: 13px;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+                margin: 25px auto;
+                padding: 24px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <span class="tag">DUNIA SEPAK BOLA</span>
+       
+
+        <h1>Alpin Aminulloh</h1>
+        <img src="https://i.pinimg.com/736x/9b/fb/0c/9bfb0c41887483f9f0cee7359842ca57.jpg" wide="180" height="200">
+
+        <h2>Sepak Bola, Lebih dari Sekadar Permainan</h2>
+
+        <p>
+            Sepak bola merupakan salah satu olahraga yang paling
+            populer di dunia. Olahraga ini dimainkan oleh dua tim
+            yang masing-masing berusaha mencetak gol ke gawang lawan.
+        </p>
+
+        <p>
+            Menurut saya, sepak bola bukan hanya tentang mencetak
+            gol atau memenangkan pertandingan. Di dalamnya ada
+            kerja sama tim, strategi, kedisiplinan, dan semangat
+            pantang menyerah.
+        </p>
+
+        <p>
+            Hal yang membuat sepak bola menarik adalah setiap
+            pertandingan memiliki cerita tersendiri. Para pemain
+            harus saling percaya, bekerja sama, dan tetap fokus
+            sampai peluit akhir dibunyikan.
+        </p>
+
+        <button type="button" onclick="tampilkanPesan()">
+            Klik di sini
+        </button>
+
+        <div id="pesan">
+            Tekan tombol untuk melihat pesan tentang sepak bola.
+        </div>
+
+        <footer>
+            Dibuat sebagai latihan HTML, CSS, dan JavaScript.
+        </footer>
+
+    </main>
+
+    <script>
+        function tampilkanPesan() {
+            document.getElementById("pesan").textContent =
+                "Sepak bola mengajarkan kerja sama, sportivitas, dan semangat untuk terus berusaha!";
+        }
+    </script>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
