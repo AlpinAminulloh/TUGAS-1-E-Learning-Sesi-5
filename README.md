@@ -31,8 +31,9 @@ Website ini dibuat dengan tampilan sederhana, menggunakan kombinasi warna hijau 
 
 Berikut merupakan tampilan website sepak bola yang telah dibuat:
 
-![Screenshot Website Sepak Bola](Uploading screencapture-file-C-Users-ASUS-Downloads-TUGAS-ELERNING-SESI-5-WEB-1-index-html-2026-11-10-17_17_30.png()
-)
+
+![Uploading screencapture-file-C-Users-ASUS-Downloads-TUGAS-ELERNING-SESI-5-WEB-1-index-html-2026-11-10-17_17_30.png…]()
+
 
 ## 🚀 Cara Menjalankan Website
 
